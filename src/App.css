@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+.bg-country {
+  background-image: url("/src//assets/world-map-background-with-blue-green-gradient_687236-150.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
