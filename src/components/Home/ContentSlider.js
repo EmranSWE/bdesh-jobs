@@ -5,9 +5,9 @@ import SilderPage from './SilderPage';
 import bg from "../../assets/9978615_4273996.jpg"
 const ContentSlider = () => {
     return (
-        <div className="bg-cover bg-center text-white text-xl font-bold" style={{ backgroundImage: `url(${bg})`  }}>
-            <div className="grid grid-cols-12 gap-4">
-                <div className="col-span-3">
+        <div className="bg-cover bg-center text-white text-xl font-bold " style={{ backgroundImage: `url(${bg})`  }}>
+            <div className="grid lg:grid-cols-3 gap-2 px-8  sm:grid-cols-1">
+                <div className="lg:col-span-1 ">
                     <h1>সঠিক চাকরি খুঁজে নিন</h1>
                     <div>
                         <div className='flex'>
@@ -33,10 +33,10 @@ const ContentSlider = () => {
                     </div>
                     <button className="btn btn-warning">Button</button>
                 </div>
-                <div className='col-span-5'>
+                <div className=''>
                 <SilderPage></SilderPage>
                 </div>
-                <div className='col-span-3'>
+                <div className=''>
                     <h1>বিভিন্ন দেশে কর্মী প্রয়োজন</h1>
                     <h1>সংযুক্ত আরব আমীরাত</h1>
                     <h1>সৌদি আরব </h1>

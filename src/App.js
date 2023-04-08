@@ -5,17 +5,20 @@ import Features from './components/Home/Features';
 import Footer from './components/shared/Footer';
 import TrustAndReliance from './components/Home/TrustAndReliance';
 import CountryJobs from './components/Home/CountryJobs';
+import Profession from './components/Home/Profession';
 
 function App() {
   return (
     <div >
-      <h1>Bdesh Jobs</h1>
-    <Menubar></Menubar>
-    <ContentSlider></ContentSlider>
-    <Features></Features>
-   <CountryJobs></CountryJobs>
-    <TrustAndReliance></TrustAndReliance>
-    <Footer></Footer>
+      {/* Menubar */}
+      <Menubar></Menubar>
+      {/* Header content and Slider */}
+      <ContentSlider></ContentSlider>
+      <Profession></Profession>
+      <Features></Features>
+      <CountryJobs></CountryJobs>
+      <TrustAndReliance></TrustAndReliance>
+      <Footer></Footer>
     </div>
   );
 }

@@ -6,7 +6,7 @@ import { SiYoutube } from 'react-icons/si';
 const Menubar = () => {
 
     return (
-        <div>
+        <div className='lg:mx-10'>
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <ul className="menu menu-horizontal px-1">
