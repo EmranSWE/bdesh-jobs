@@ -14,8 +14,8 @@ function App() {
       <Menubar></Menubar>
       {/* Header content and Slider */}
       <ContentSlider></ContentSlider>
-      <Profession></Profession>
       <Features></Features>
+      <Profession></Profession>
       <CountryJobs></CountryJobs>
       <TrustAndReliance></TrustAndReliance>
       <Footer></Footer>
