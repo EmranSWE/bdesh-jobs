@@ -39,7 +39,15 @@
 
 
 .bg-country {
-  background-image: url("/src//assets/world-map-background-with-blue-green-gradient_687236-150.jpg");
+  background-image: url("/src/assets/world-map-background-with-blue-green-gradient_687236-150.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+.yourJobs{
+    background-image:  url("/src/assets/skills/thousand_cv.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+

@@ -2,8 +2,8 @@ import React from 'react';
 
 const ProfessionalGuidlines = () => {
     return (
-        <div>
-           <div className='card bg-white m-5 p-5'>
+        <div className='mx-5'>
+           <div className='card bg-white lg:m-5 lg:p-5 ' >
             <h1 className='font-bold text-xl'>বিদেশ জবস্ এর গাইডলাইন</h1>
             <p> "বিদেশ জবস্"-নির্দেশিকা</p>
             <p>বিদেশে যাওয়ার গাইডলাইন</p>
@@ -12,8 +12,8 @@ const ProfessionalGuidlines = () => {
             <p> বিদেশের যাত্রাপথে করনীয়</p>
             <p> বিদেশে জীবনযাত্রা</p>
            </div>
-           <div className='card bg-white m-5 p-5'>
-            <h1 className='font-bold '>সরকারি গুরুত্বপূর্ণ লিংক সমূহ</h1>
+           <div className='card bg-white lg:m-5 lg:p-5 my-10 '>
+            <h1 className='font-bold text-xl mt-5'>সরকারি গুরুত্বপূর্ণ লিংক সমূহ</h1>
             <p>ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর</p>
             <p>বাংলাদেশ কারিগরি শিক্ষা বোর্ড</p>
             <p>জনশক্তি কর্মসংস্থান ও প্রশিক্ষণ ব্যুরো</p>
