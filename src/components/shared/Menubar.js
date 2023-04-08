@@ -3,32 +3,39 @@ import logo from "../../assets/logo_bdesh.svg";
 import joinVenture from "../../assets/Joint_venture.png"
 import { SiFacebook } from 'react-icons/si';
 import { SiYoutube } from 'react-icons/si';
+import myImg from "../../assets/skills/imran.jpg";
+import { FaPhone } from "react-icons/fa"
 const Menubar = () => {
 
     return (
-        <div className='lg:mx-10'>
-            <div className="navbar bg-base-100">
-                <div className="navbar-start">
-                    <ul className="menu menu-horizontal px-1">
-                        <li><a>বিডিজবস্</a></li>
-                        <li><a>চাকরির খবর</a></li>
-                        <li><a>চাকরি প্রার্থীর একাউন্ট</a></li>
-                        <li><a> নিয়োগকারী সংস্থা/ বিদেশী নিয়োগকর্তা </a></li>
+        <div>
+            <div style={{ backgroundColor: "#ECEFF1" }}>
+                <div className="navbar px-10" >
+                    <div className="navbar-start">
+                        <ul className="menu menu-horizontal px-1">
+                            <li><a>বিডিজবস্</a></li>
+                            <li><a>চাকরির খবর</a></li>
+                            <li><a>চাকরি প্রার্থীর একাউন্ট</a></li>
+                            <li><a> নিয়োগকারী সংস্থা/ বিদেশী নিয়োগকর্তা </a></li>
 
 
-                    </ul>
-                </div>
+                        </ul>
+                    </div>
 
-                <div className="navbar-end">
+                    <div className="navbar-end">
 
-                    <SiFacebook className=' w-6 h-6 mx-2 '></SiFacebook>
+                        <SiFacebook className=' w-6 h-6 mx-2 ' style={{ color: "blue" }} />
 
-                    <SiYoutube className=' w-6 h-6 mx-2'></SiYoutube>
+                        <SiYoutube className=' w-6 h-6 mx-2' style={{ color: "red" }} />
+                        <div className='flex '>
+                            <button className='text-white my-3 rounded' style={{ backgroundColor: "#1565C0" }}>বাংলা</button>
+                            <button className='text-black my-3 rounded' style={{ backgroundColor: "#ffffff" }}>ENG</button></div>
+                    </div>
                 </div>
             </div>
 
 
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-base-100 lg:px-10">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -72,7 +79,7 @@ const Menubar = () => {
                     <div className="dropdown dropdown-end">
                         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                             <div className="w-10 rounded-full">
-                                <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                <img src={myImg} alt="" />
                             </div>
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
@@ -86,10 +93,10 @@ const Menubar = () => {
                             <li><a>Logout</a></li>
                         </ul>
                     </div>
-                    <ul>
-                        <li>
-                            যোগাযোগ</li>
-                    </ul>
+                    <div className='flex gap-2 items-center'>
+                        <FaPhone></FaPhone>
+                        <p> যোগাযোগ</p>
+                    </div>
                 </div>
             </div>
         </div>

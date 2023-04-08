@@ -70,7 +70,7 @@ const CountryJobs = () => {
                         <div className="relative w-44 h-40 rounded-md overflow-hidden">
                             <img src={sa} className="absolute inset-0 w-full h-full object-cover" alt='' />
                             <div className="absolute inset-0 bg-white opacity-80"></div>
-                            <div  className="absolute  flex flex-col justify-center items-center text-black text-center px-6">
+                            <div className="absolute  flex flex-col justify-center items-center text-black text-center px-6">
                                 <h2 className="text-2xl font-bold mt-7" style={{ color: "#00796B" }}>৩৫ টি</h2>
                                 <p>খালি পদ রয়েছে</p>
 
@@ -84,12 +84,12 @@ const CountryJobs = () => {
                         <div className="relative w-44 h-40 rounded-md overflow-hidden">
                             <img src={japan} className="absolute inset-0 w-full h-full object-cover" alt='' />
                             <div className="absolute inset-0 bg-white opacity-80"></div>
-                            <div  className="absolute  flex flex-col justify-center items-center text-black text-center px-6">
+                            <div className="absolute  flex flex-col justify-center items-center text-black text-center px-6">
                                 <h2 className="text-2xl font-bold mt-7" style={{ color: "#00796B" }}>২৫ টি</h2>
                                 <p>খালি পদ রয়েছে</p>
 
                             </div>
-                            
+
                             <div className="absolute bottom-0 w-full bg-black py-2 px-4">
                                 <p className="text-white text-center font-bold">জাপান</p>
                             </div>
@@ -99,12 +99,12 @@ const CountryJobs = () => {
                         <div className="relative w-44 h-40 rounded-md overflow-hidden">
                             <img src={korea} className="absolute inset-0 w-full h-full object-cover" alt='' />
                             <div className="absolute inset-0 bg-white opacity-80"></div>
-                            <div  className="absolute  flex flex-col justify-center items-center text-black text-center px-6">
+                            <div className="absolute  flex flex-col justify-center items-center text-black text-center px-6">
                                 <h2 className="text-2xl font-bold mt-7" style={{ color: "#00796B" }}>২৫ টি</h2>
                                 <p>খালি পদ রয়েছে</p>
 
                             </div>
-                            
+
                             <div className="absolute bottom-0 w-full bg-black py-2 px-4">
                                 <p className="text-white text-center font-bold">জাপান</p>
                             </div>
@@ -114,7 +114,7 @@ const CountryJobs = () => {
                         <div className="relative w-44 h-40 rounded-md overflow-hidden">
                             <img src={oman} className="absolute inset-0 w-full h-full object-cover" alt='' />
                             <div className="absolute inset-0 bg-white opacity-80"></div>
-                            <div  className="absolute  flex flex-col justify-center items-center text-black text-center px-6">
+                            <div className="absolute  flex flex-col justify-center items-center text-black text-center px-6">
                                 <h2 className="text-2xl font-bold mt-7" style={{ color: "#00796B" }}>৬ টি</h2>
                                 <p>খালি পদ রয়েছে</p>
 
@@ -128,7 +128,7 @@ const CountryJobs = () => {
                         <div className="relative w-44 h-40 rounded-md overflow-hidden">
                             <img src={malay} className="absolute inset-0 w-full h-full object-cover" alt='' />
                             <div className="absolute inset-0 bg-white opacity-80"></div>
-                            <div  className="absolute  flex flex-col justify-center items-center text-black text-center px-6">
+                            <div className="absolute  flex flex-col justify-center items-center text-black text-center px-6">
                                 <h2 className="text-2xl font-bold mt-7" style={{ color: "#00796B" }}>৬ টি</h2>
                                 <p>খালি পদ রয়েছে</p>
 
@@ -142,7 +142,7 @@ const CountryJobs = () => {
                         <div className="relative w-44 h-40 rounded-md overflow-hidden">
                             <img src={denmark} className="absolute inset-0 w-full h-full object-cover" alt='' />
                             <div className="absolute inset-0 bg-white opacity-80"></div>
-                            <div  className="absolute  flex flex-col justify-center items-center text-black text-center px-6">
+                            <div className="absolute  flex flex-col justify-center items-center text-black text-center px-6">
                                 <h2 className="text-2xl font-bold mt-7" style={{ color: "#00796B" }}>১ টি</h2>
                                 <p>খালি পদ রয়েছে</p>
 
@@ -156,7 +156,7 @@ const CountryJobs = () => {
                         <div className="relative w-44 h-40 rounded-md overflow-hidden">
                             <img src={jordan} className="absolute inset-0 w-full h-full object-cover" alt='' />
                             <div className="absolute inset-0 bg-white opacity-80"></div>
-                            <div  className="absolute  flex flex-col justify-center items-center text-black text-center px-6">
+                            <div className="absolute  flex flex-col justify-center items-center text-black text-center px-6">
                                 <h2 className="text-2xl font-bold mt-7" style={{ color: "#00796B" }}>১ টি</h2>
                                 <p>খালি পদ রয়েছে</p>
 

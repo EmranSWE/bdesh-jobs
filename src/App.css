@@ -37,6 +37,20 @@
   }
 }
 
+.banner-l{
+  background: linear-gradient(rgb(47,129,222),rgba(47,129,222,.9)),url("/src/assets/skills/banner-bg-l.png");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
+}
+
+.banner-r{
+  background: linear-gradient(rgb(47,129,222),rgba(47,129,222,.9)),url("/src/assets/skills/banner-bg-r.png");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
+}
+
 
 .bg-country {
   background-image: url("/src/assets/world-map-background-with-blue-green-gradient_687236-150.jpg");
